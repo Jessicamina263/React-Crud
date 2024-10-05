@@ -1,0 +1,95 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.container {
+  background-color: white;
+  box-shadow: 0 0 10px rgb(102, 102, 102);
+  width: 76%;
+  height: 62%;
+}
+
+.schoolbell {
+  font-family: "Schoolbell", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+input, textarea {
+  width: 98%;
+  border-radius: 5px;
+}
+
+input {
+  height: 7%;
+  font-size: large;
+  border: 1px solid rgb(211, 208, 208);
+}
+
+textarea {
+  height: 15%;
+  font-size: large;
+  border: 1px solid rgb(196, 193, 193);
+}
+
+.d-none {
+  display: none;
+}
+
+.d-block {
+  display: block;
+}
+
+table {
+  width: 87%;
+  border-collapse: collapse;
+}
+
+th, td {
+  border-bottom: 1px solid #ddd;
+  padding: 15px;
+  text-align: center;
+}
+
+th {
+  background-color: #ffffff;
+  font-weight: bold;
+}
+
+button.btn-update {
+  color: #28a745;
+  background-color: transparent;
+}
+
+button.btn-trash {
+  color: #dc3545;
+  background-color: transparent;
+}
+
+button.btn-update:hover, button.btn-trash:hover {
+  color: white;
+}
+
+button.btn-update:hover {
+  background-color: #28a745;
+}
+
+button.btn-trash:hover {
+  background-color: #dc3545;
+}
+
+.searchbar {
+  margin-top: 50px;
+  margin-left: 220px;
+  width: 71.5%;
+  height: 35px;
+}
